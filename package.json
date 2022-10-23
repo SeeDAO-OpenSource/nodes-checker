@@ -1,0 +1,26 @@
+{
+  "name": "nodes-checker",
+  "version": "1.0.0",
+  "description": "确认节点身份并输出 JSON 档案的小工具 (使用 nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeeDAO-OpenSource/nodes-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeeDAO-OpenSource/nodes-checker/issues"
+  },
+  "homepage": "https://github.com/SeeDAO-OpenSource/nodes-checker#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "csv": "^6.2.1",
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.0"
+  }
+}
