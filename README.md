@@ -35,6 +35,24 @@ npm run start
 
 6. 得到 `nodelist.csv` 即完成
 
+```csv
+Node,Address,SCR,SGN,Block,Time
+N,0x01116bff69113dc1125dd9fc465eed55cf32e9ca,4110,0,15809702,"Sun, 23 Oct 2022 08:45:11 GMT"
+Y,0x01175ef4738b825cd12f4d1ff2d2904d52144531,643625,2,15809702,"Sun, 23 Oct 2022 08:45:11 GMT"
+...
+...
+N,0x01917dfa012027d59c86250e887a45f6d8f49f6d,1902,0,15809702,"Sun, 23 Oct 2022 08:45:11 GMT"
+N,0x0374dd85fdbadaff0377bbe7d7753b054bd9e7e0,3000,0,15809702,"Sun, 23 Oct 2022 08:45:11 GMT"
+Y,0x043aee850680c4fb982761b585929834c26cc32c,93870,1,15809702,"Sun, 23 Oct 2022 08:45:11 GMT"
+```
+其中:
+
+- Node: Y 为具备节点身份资格, N 为不具备
+- Address: 为钱包地址
+- SCR: 为检验时间当下的 `$SCORE` 总数
+- SGN: 为检验时间当下的 `SGN` 总数
+- Block: 检验时间的区块
+- Time: 该检验区块的时间
 
 ## 历史纪录
 
